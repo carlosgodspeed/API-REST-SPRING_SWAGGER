@@ -16,7 +16,6 @@ Projeto de uma API REST desenvolvida com **Spring Boot**, documentada com **Swag
 ## Estrutura do Projeto
 
 ```
-```
 src/
 ├── main/
 │   ├── java/
@@ -33,3 +32,4 @@ src/
     └── java/
         └── com/seu/package/
 ```
+
