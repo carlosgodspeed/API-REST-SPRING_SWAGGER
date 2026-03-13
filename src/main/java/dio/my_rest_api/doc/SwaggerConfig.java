@@ -13,9 +13,9 @@ public class SwaggerConfig {
 
     private Contact contato() {
         return new Contact()
-                .name("Seu nome")
-                .url("https://www.linkedin.com/in/seu-perfil")
-                .email("seu.email@exemplo.com");
+                .name("Carlos Henrique")
+                .url("https://github.com/carlosgodspeed")
+                .email("carlosminibics@gmail.com");
     }
 
     private Info informacoesApi() {
@@ -28,7 +28,7 @@ public class SwaggerConfig {
         info.termsOfService("Termo de uso: Open Source");
         info.license(new License()
                 .name("Licença - Sua Empresa")
-                .url("https://www.suaempresa.com"));
+                .url("https://github.com/carlosgodspeed"));
         info.contact(this.contato());
 
         return info;
